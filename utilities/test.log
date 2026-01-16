@@ -1,0 +1,21 @@
+2026-01-15 15:35:03,042: test_formSubmissions: INFO: Firstname is Hayden
+2026-01-15 15:35:03,089: test_formSubmissions: INFO: Email is HJ@hj.com
+2026-01-15 15:35:03,125: test_formSubmissions: INFO: Gender is Male
+2026-01-15 15:35:03,146: test_formSubmissions: INFO: Submitting the form...
+2026-01-15 15:39:39,015: test_formSubmissions: INFO: Firstname is Hayden
+2026-01-15 15:39:39,064: test_formSubmissions: INFO: Email is HJ@hj.com
+2026-01-15 15:39:39,100: test_formSubmissions: INFO: Gender is Male
+2026-01-15 15:39:39,120: test_formSubmissions: INFO: Submitting the form...
+2026-01-15 15:39:44,195: test_e2e: INFO: Getting product cards
+2026-01-15 15:39:44,220: test_e2e: INFO: iphone X
+2026-01-15 15:39:44,227: test_e2e: INFO: Samsung Note 8
+2026-01-15 15:39:44,233: test_e2e: INFO: Nokia Edge
+2026-01-15 15:39:44,239: test_e2e: INFO: Blackberry
+2026-01-15 15:39:44,300: test_e2e: INFO: Entering Country name as 'Ind'
+2026-01-15 15:39:49,414: test_e2e: INFO: Submitting the order
+2026-01-15 15:39:49,440: test_e2e: INFO: ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2026-01-15 17:42:20,864: test_formSubmissions: INFO: Firstname is Hayden
+2026-01-15 17:42:20,926: test_formSubmissions: INFO: Email is HJ@hj.com
+2026-01-15 17:42:20,965: test_formSubmissions: INFO: Gender is Male
+2026-01-15 17:42:20,988: test_formSubmissions: INFO: Submitting the form...
