@@ -24,7 +24,7 @@ class TestHomePage(BaseClass):
         msg = homepage.getAlertMessage().text
 
         assert "Success!" in msg
-        self.driver.refresh()
+        self.driver.quit()
 
     @pytest.fixture(params=HomepageData.test_HomePage_Data)
     def getData(self, request):

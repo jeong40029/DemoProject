@@ -41,3 +41,5 @@ class TestOne(BaseClass):
         log.info(alertMessage)
 
         assert "Success!" in alertMessage
+
+        self.driver.quit()
