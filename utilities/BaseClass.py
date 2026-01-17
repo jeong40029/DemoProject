@@ -1,5 +1,6 @@
 import inspect
 import logging
+import os
 
 import pytest
 from selenium.webdriver.common.by import By
@@ -21,10 +22,27 @@ class BaseClass:
     def getLogger(self):
         loggerName = inspect.stack()[1][3]
         logger = logging.getLogger(loggerName)
-        filehandler = logging.FileHandler("/Users/haydenjeong/PycharmProjects/PythonSelFramework/utilities/test.log")
+
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        log_file_path = os.path.join(current_dir, "test.log")
+
+        filehandler = logging.FileHandler(log_file_path)
+
         formatter = logging.Formatter("%(asctime)s: %(name)s: %(levelname)s: %(message)s")
-        logger.addHandler(filehandler)
         filehandler.setFormatter(formatter)
 
-        logger.setLevel(logging.DEBUG)
+        if not logger.handlers:
+            logger.addHandler(filehandler)
+            logger.setLevel(logging.INFO)
+
         return logger
+    # def getLogger(self):
+    #     loggerName = inspect.stack()[1][3]
+    #     logger = logging.getLogger(loggerName)
+    #     filehandler = logging.FileHandler("/Users/haydenjeong/PycharmProjects/PythonSelFramework/utilities/test.log")
+    #     formatter = logging.Formatter("%(asctime)s: %(name)s: %(levelname)s: %(message)s")
+    #     logger.addHandler(filehandler)
+    #     filehandler.setFormatter(formatter)
+    #
+    #     logger.setLevel(logging.DEBUG)
+    #     return logger
