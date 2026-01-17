@@ -1,6 +1,6 @@
-# Selenium UI Automation Pipeline with Jenkins and AWS
+# Selenium Automation Pipeline with Jenkins and AWS
 
-This project demonstrates a robust CI/CD pipeline for UI automation testing, leveraging AWS EC2, Jenkins, and Python Selenium. It is designed to handle environment-specific challenges and provide real-time feedback through automated reporting.
+This project demonstrates a robust CI/CD pipeline for automation testing, leveraging AWS EC2, Jenkins, and Python Selenium. It is designed to handle environment-specific challenges and provide real-time feedback through automated reporting.
 
 ---
 
