@@ -14,7 +14,8 @@ def setup(request):
     browser_name = request.config.getoption("browser_name")
     if browser_name == "chrome":
         chrome_options = webdriver.ChromeOptions()
-        chrome_options.add_argument("start-maximized")
+        #chrome_options.add_argument("start-maximized")
+        chrome_options.add_argument("--window-size=1920,1080")
         chrome_options.add_argument("--ignore-certificate-errors")
         chrome_options.add_argument("--headless")
         service_obj = Service(ChromeDriverManager().install())
