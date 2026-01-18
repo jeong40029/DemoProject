@@ -10,7 +10,7 @@ To verify the live pipeline and build history, I have provided Read-Only access 
 <details>
   <summary>Click to show Jenkins Credentials</summary>
 
-  * **Dashboard URL**: http://18.222.140.81:8080
+  * **Dashboard URL**: http://16.58.119.172:8080
   * **Guest ID**: guest
   * **Guest PW**: guest8989
 
