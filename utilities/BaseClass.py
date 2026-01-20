@@ -36,13 +36,3 @@ class BaseClass:
             logger.setLevel(logging.INFO)
 
         return logger
-    # def getLogger(self):
-    #     loggerName = inspect.stack()[1][3]
-    #     logger = logging.getLogger(loggerName)
-    #     filehandler = logging.FileHandler("/Users/haydenjeong/PycharmProjects/PythonSelFramework/utilities/test.log")
-    #     formatter = logging.Formatter("%(asctime)s: %(name)s: %(levelname)s: %(message)s")
-    #     logger.addHandler(filehandler)
-    #     filehandler.setFormatter(formatter)
-    #
-    #     logger.setLevel(logging.DEBUG)
-    #     return logger
